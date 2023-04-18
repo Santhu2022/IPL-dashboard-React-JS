@@ -1,0 +1,67 @@
+.team-matches-bg-container {
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 60px;
+
+  display: flex;
+  justify-content: center;
+}
+.team-matches-content-container {
+  width: 90%;
+  max-width: 1000px;
+}
+
+.team-banner-image {
+  width: 100%;
+}
+
+.latest-matches-heading {
+  color: #ffffff;
+  font-family: 'bree serif';
+  font-size: 25px;
+}
+.match-cards-list {
+  padding: 0;
+  list-style-type: none;
+  color: #ffffff;
+  font-family: 'Bree serif';
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .match-cards-list {
+    gap: 30px;
+  }
+}
+* {
+  /* border: 1px solid white; */
+}
+
+.bg-gradient-RCB {
+    background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+.bg-gradient-KKR {
+    background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+}
+.bg-gradient-KXP {
+    background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+.bg-gradient-CSK {
+    background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+}
+.bg-gradient-RR {
+    background-image: linear-gradient(to bottom, #da237b, #1e293b);
+}
+.bg-gradient-MI {
+    background-image: linear-gradient(to bottom, #13418b, #1e293b);
+}
+.bg-gradient-SH {
+    background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+}
+.bg-gradient-DC {
+    background-image: linear-gradient(to bottom, #475db0, #1e293b);
+}
